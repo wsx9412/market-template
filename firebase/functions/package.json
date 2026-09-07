@@ -1,0 +1,14 @@
+{
+  "name": "market-chat-functions",
+  "description": "채팅 푸시 알림 발송",
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^14.3.0",
+    "firebase-functions": "^7.3.2",
+    "@google-cloud/billing": "^6.0.0"
+  },
+  "private": true
+}
